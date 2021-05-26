@@ -30,8 +30,6 @@ def customLogger():
     # 8.) Add file handler to logging
     logger.addHandler(fileHandler)
 
-    #  9.) Finally return the logging object
-
     return logger
 
 
